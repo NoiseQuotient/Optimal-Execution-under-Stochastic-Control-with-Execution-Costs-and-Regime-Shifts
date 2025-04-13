@@ -70,7 +70,8 @@ We compute this policy *backward in time* using dynamic programming. The result:
 
 This section showcases how the HJB-based strategy performs under real and simulated market conditions and how it stacks up against traditional strategies like naive and Almgren-style quadratic optimal liquidation.
 
-|Strategy	| Final Wealth |	Sharpe Ratio | Execution Cost | Final Inventory
+|Strategy	| Final Wealth |	Sharpe Ratio | Execution Cost | Final Inventory |
+|----------------------|-----------------------------------------------|-------------------------------------------------------|
 |Naive |	~$1.02M	7.43 |	0.00% |	$25.50M |	0 shares|
 |Optimal |	~$1.02M	4.70 |	0.00%|	$25.67M |	0 shares|
 | HJB |	$430.8M | 4.72 |	0.00% | $1.12M |
