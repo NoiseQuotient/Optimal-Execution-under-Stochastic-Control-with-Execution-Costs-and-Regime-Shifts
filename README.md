@@ -91,6 +91,7 @@ Max Drawdown: ~0.00%
 The strategy shows high robustness even under regime changes — a testament to the stability of the HJB control policy.  Confidence Bands Across Simulations. 90% of the wealth trajectories stay within tight bands, proving the strategy's resilience across uncertain market paths.
 
 HJB adapts, it’s not one-size-fits-all. It can drastically cut costs while preserving risk-adjusted returns. It acts as a foundational benchmark for execution models in real-world trading systems
+
 ---
 ## Strategy Comparison: Naive vs Optimal vs HJB
 
@@ -122,6 +123,7 @@ A few outliers demonstrate sensitivity to market path variation — but no catas
 
 (25 Sample GBM Paths):
 Volatility is simulated realistically (μ=5%, σ=20%). Some paths trend up, others down — the HJB policy handles both.
+
 ---
 
 ##  Wealth Trajectories Under Regime-Switching Volatility
@@ -134,6 +136,7 @@ Shaded bands show the 5th to 95th percentile wealth trajectory across 50 runs.
 
 HJB-like (red) strategy remains consistent, but struggles to outperform the Optimal (green) strategy under volatility shocks.
 This highlights the value of adapting policy maps to evolving volatility — an exciting area for future work.
+
 ---
 ## What the HJB Model Is *Good At*
 
