@@ -175,3 +175,11 @@ Despite this, the model is a **powerful baseline** rich, practical, and realisti
 > This project bridges the gap between **academic stochastic control** and **real-world quantitative execution**.
 
 
+## References
+- Almgren, R., & Chriss, N. (2001). Optimal execution of portfolio transactions. Journal of Risk, 3(2), 5–39.
+
+- Yong, J., & Zhou, X. Y. (1999). Stochastic Controls: Hamiltonian Systems and HJB Equations. Springer.
+
+- Cartea, Á., Jaimungal, S., & Penalva, J. (2015). Algorithmic and High-Frequency Trading. Cambridge University Press.
+
+- Snoek, J., Larochelle, H., & Adams, R. P. (2012). Practical Bayesian Optimization of Machine Learning Algorithms. NeurIPS.
