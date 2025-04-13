@@ -12,7 +12,7 @@ This isn’t just academic curiosity, it addresses a core challenge in modern el
 
 t mirrors real problems: Every institution liquidating a position runs into this. It’s the real-world "market microstructure" challenge.
 
-**For this reason this project builds a full-stack pipeline for modeling optimal liquidation with market impact using HJB control. It evaluates strategies under real and simulated market conditions, tunes parameters via optimization, and analyzes execution performance with professional metrics — all while being transparent, interpretable, and extensible.**
+**For this reason this project builds a full-stack pipeline for modeling optimal liquidation with market impact using HJB control. It evaluates strategies under real and simulated market conditions, tunes parameters via optimization, and analyzes execution performance with professional metrics, all while being transparent, interpretable, and extensible.**
 
 ---
 
@@ -47,7 +47,7 @@ Every move you make (trade rate) affects your future state.
 
 You could brute-force simulate strategies (as some quant shops do with reinforcement learning), but HJB theory gives you the analytical way. Instead of simulating random policies or training reinforcement learning agents, we **solve the optimal control problem directly** using **Hamilton–Jacobi–Bellman (HJB)** equations.
 
-> **"What’s the best action to take at each state — given my inventory and market price — to maximize my expected reward?"**
+> **"What’s the best action to take at each state — given my inventory and market price to maximize my expected reward?"**
 
 We compute this policy *backward in time* using dynamic programming. The result: a **policy grid** that maps every (inventory, price, time) to the optimal trading rate.
 
@@ -88,7 +88,7 @@ Mean Sharpe Ratio: 4.11
 Max Drawdown: ~0.00%
 
 
-The strategy shows high robustness even under regime changes — a testament to the stability of the HJB control policy.  Confidence Bands Across Simulations. 90% of the wealth trajectories stay within tight bands, proving the strategy's resilience across uncertain market paths.
+The strategy shows high robustness even under regime changes a testament to the stability of the HJB control policy.  Confidence Bands Across Simulations. 90% of the wealth trajectories stay within tight bands, proving the strategy's resilience across uncertain market paths.
 
 HJB adapts, it’s not one-size-fits-all. It can drastically cut costs while preserving risk-adjusted returns. It acts as a foundational benchmark for execution models in real-world trading systems
 
