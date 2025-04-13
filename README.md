@@ -82,10 +82,10 @@ This section showcases how the HJB-based strategy performs under real and simula
 
 **Monte Carlo Simulation (GBM + Regime-Switching) Simulating 50 random paths with GBM and volatility regimes:**
 
-Mean Final Wealth: ~$406M
-Std Dev: ~$28.5M
-Mean Sharpe Ratio: 4.11
-Max Drawdown: ~0.00%
+-Mean Final Wealth: ~$406M
+-Std Dev: ~$28.5M
+-Mean Sharpe Ratio: 4.11
+-Max Drawdown: ~0.00%
 
 
 The strategy shows high robustness even under regime changes a testament to the stability of the HJB control policy.  Confidence Bands Across Simulations. 90% of the wealth trajectories stay within tight bands, proving the strategy's resilience across uncertain market paths.
