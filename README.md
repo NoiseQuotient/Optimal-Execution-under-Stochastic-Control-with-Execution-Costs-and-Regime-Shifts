@@ -115,7 +115,7 @@ A successful liquidation: all strategies reduce inventory smoothly to (near) zer
 
 ## HJB Monte Carlo Distribution & Simulated Price Paths
 
-<img src="images/figure2_gbm_distribution.png" alt="Monte Carlo HJB Results" width="800"/>
+![Trading Rates](figure2_gbm_distribution.png)
 
 (Distribution of Final Wealth):
 Running the HJB strategy under 50 stochastic GBM price paths shows most outcomes cluster around a healthy terminal wealth.
@@ -128,7 +128,7 @@ Volatility is simulated realistically (μ=5%, σ=20%). Some paths trend up, othe
 
 ##  Wealth Trajectories Under Regime-Switching Volatility
 
-<img src="images/figure3_regime_bands.png" alt="Regime-switching GBM bands" width="800"/>
+![Monte Carlo Distribution](figure3_regime_bands.png)
 
 We simulate a regime-switching model where volatility randomly alternates between low (σ=10%) and high (σ=30%) states.
 
