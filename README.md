@@ -92,7 +92,7 @@ HJB adapts, it’s not one-size-fits-all. It can drastically cut costs while pre
 ---
 ## Strategy Comparison: Naive vs Optimal vs HJB
 
-<img src="images/figure1_summary.png" alt="Strategy comparison plots" width="800"/>
+![Figure 1](images/figure1_summary.png)
 
 **Top-left (Wealth Over Time):**
 The HJB strategy (green) clearly dominates both the Naive (blue) and Optimal (orange, deterministic) strategies in terms of terminal wealth.
