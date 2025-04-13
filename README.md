@@ -8,7 +8,7 @@ At its core, this project tackles a question every institutional investor, asset
 
 You don’t want to sell too fast (you’ll push the price down), but you also don’t want to wait forever (market moves, inventory risk). This project is an attempt to model that trade-off mathematically — and solve it *optimally*.
 
-This isn’t just academic curiosity. It’s a **core problem in modern electronic trading**, and the foundation of execution algorithms run by firms like **Citadel, Renaissance Technologies, and JPMorgan**.
+This isn’t just academic curiosity, it addresses a core challenge in modern electronic trading. The principles behind optimal execution under market impact are fundamental to the trading infrastructure used by leading quant funds and investment banks developing algorithmic execution strategies.
 
 t mirrors real problems: Every institution liquidating a position runs into this. It’s the real-world "market microstructure" challenge.
 
@@ -101,7 +101,7 @@ The HJB strategy (green) clearly dominates both the Naive (blue) and Optimal (or
 
 **Top-right (Trading Rate):**
 The Naive strategy trades uniformly. The Optimal strategy reduces its trading rate over time.
-The HJB strategy remains dynamic — but here, it chose to front-load aggressively, selling fast.
+The HJB strategy remains dynamic but here, it chose to front-load aggressively, selling fast.
 
 **Bottom-left (AAPL Price Path):**
 Real historical price data from 2023 is used as the environment. The price is upward-trending but with mid-year volatility spikes.
@@ -155,7 +155,7 @@ This highlights the value of adapting policy maps to evolving volatility — an 
 | No alpha signals                   | Doesn't use predictive models (e.g., ML forecasts)            |
 | Curse of dimensionality            | HJB scales poorly in multi-dimensional state spaces          |
 
-Despite this, the model is a **powerful baseline** — rich, practical, and realistic enough to compare advanced execution strategies against.
+Despite this, the model is a **powerful baseline** rich, practical, and realistic enough to compare advanced execution strategies against.
 
 ---
 
