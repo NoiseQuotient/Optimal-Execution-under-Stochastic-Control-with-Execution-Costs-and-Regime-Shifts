@@ -80,12 +80,15 @@ This section showcases how the HJB-based strategy performs under real and simula
 ** The HJB approach maintains a strong Sharpe ratio, drastically lowers execution cost, and adapts to price paths more intelligently than static strategies.The HJB controller consistently delivers high Sharpe, drastically reduced execution costs, and strategic liquidation patterns.**
 
 
-**Monte Carlo Simulation (GBM + Regime-Switching) Simulating 50 random paths with GBM and volatility regimes:**
+**Monte Carlo Simulation (GBM + Regime-Switching) Simulating 500 random paths with GBM and volatility regimes:**
 
--Mean Final Wealth: ~$406M
--Std Dev: ~$28.5M
--Mean Sharpe Ratio: 4.11
--Max Drawdown: ~0.00%
+ Monte Carlo Summary for 500 GBM Paths:
+  - Mean Final Wealth: $387,483,157.43
+  - Std Dev Final Wealth: $42,799,205.57
+  - Max Final Wealth: $559,862,291.97
+  - Min Final Wealth: $283,028,331.73
+  - Sharpe (Mean): 4.08
+  - Max Drawdown (Mean): 0.00%
 
 
 The strategy shows high robustness even under regime changes a testament to the stability of the HJB control policy.  Confidence Bands Across Simulations. 90% of the wealth trajectories stay within tight bands, proving the strategy's resilience across uncertain market paths.
