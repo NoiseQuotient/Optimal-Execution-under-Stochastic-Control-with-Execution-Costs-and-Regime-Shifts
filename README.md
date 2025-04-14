@@ -118,7 +118,7 @@ A successful liquidation: all strategies reduce inventory smoothly to (near) zer
 ![Trading Rates](figure2_gbm_distribution.png)
 
 (Distribution of Final Wealth):
-Running the HJB strategy under 50 stochastic GBM price paths shows most outcomes cluster around a healthy terminal wealth.
+Running the HJB strategy under 500 stochastic GBM price paths shows most outcomes cluster around a healthy terminal wealth.
 A few outliers demonstrate sensitivity to market path variation — but no catastrophic failures, a good robustness sign.
 
 (25 Sample GBM Paths):
