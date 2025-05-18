@@ -12,7 +12,7 @@ This isn’t just academic curiosity, it addresses a core challenge in modern el
 
 t mirrors real problems: Every institution liquidating a position runs into this. It’s the real-world "market microstructure" challenge.
 
-**For this reason this project builds a full-stack pipeline for modeling optimal liquidation with market impact using HJB control. It evaluates strategies under real and simulated market conditions, tunes parameters via optimization, and analyzes execution performance with professional metrics, all while being transparent, interpretable, and extensible.**
+**For this reason this project builds a pipeline for modeling optimal liquidation with market impact using HJB control. It evaluates strategies under real and simulated market conditions, tunes parameters via optimization, and analyzes execution performance with professional metrics, all while being transparent, interpretable, and extensible.**
 
 ---
 
