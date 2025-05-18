@@ -6,7 +6,7 @@ At its core, this project tackles a question every institutional investor, asset
 
 > **"If I hold a huge position in a stock, how do I sell it off without setting fire to the price I'm trying to get?"**
 
-You don’t want to sell too fast (you’ll push the price down), but you also don’t want to wait forever (market moves, inventory risk). This project is an attempt to model that trade-off mathematically — and solve it *optimally*.
+You don’t want to sell too fast (you’ll push the price down), but you also don’t want to wait forever (market moves, inventory risk). This project is an attempt to model that trade-off mathematically and solve it *optimally*.
 
 This isn’t just academic curiosity, it addresses a core challenge in modern electronic trading. The principles behind optimal execution under market impact are fundamental to the trading infrastructure used by leading quant funds and investment banks developing algorithmic execution strategies.
 
